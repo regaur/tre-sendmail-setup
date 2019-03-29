@@ -1,13 +1,19 @@
 # Maintainer: Jan Boelsche <jan@lagomorph.de>
 pkgname=tre-sendmail-setup
-pkgver=1.0.0
+pkgver=1.2.1
 pkgrel=1
 pkgdesc="generate msmtp config  based on the contents of a station message"
 arch=('any')
 url=""
 license=('MIT')
 groups=()
-depends=('nodejs')
+depends=(
+  'nodejs'
+  'msmtp'
+  'msmtp-mta'
+  's-nail'
+)
+
 makedepends=('npm')
 checkdepends=()
 optdepends=()
