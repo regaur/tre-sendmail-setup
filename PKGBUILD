@@ -1,7 +1,7 @@
 # Maintainer: Jan Boelsche <jan@lagomorph.de>
 pkgname=tre-sendmail-setup
 pkgver=1.2.1
-pkgrel=1
+pkgrel=2
 pkgdesc="generate msmtp config  based on the contents of a station message"
 arch=('any')
 url=""
